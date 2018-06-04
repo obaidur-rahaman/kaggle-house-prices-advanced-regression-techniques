@@ -84,14 +84,6 @@ Best single models:
 | ElasticNet                 | 0.11364+-0.01677 | 0.11976 |
 | SVM                        | 0.19752+-0.01386 | 0.20416 |
 
-# Ensembling
-
-We used 10 single models to individually predict the results. It is well established that a stacking/blending of the predictions by single models can improve the final results. Also it is ideal to select a few best performing but uncorrelated models for this purpose instead of considering all of them.
-
-Inside 04-modelling/ensembling folder the correlations and performances of the single models were explored using the corr-coeff notebook. 
-
-5 best performing and least correlated models were selected and stacked together (using 04-modelling/ensembling/stacking notebook) to make the final prediction.
-
 ## Acknowledgments
 
 The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
